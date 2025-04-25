@@ -100,6 +100,14 @@ post_id="$(post_fp "${prev_frame}" | grep -Po '(?=[0-9])(.*)(?=\",\")')" || fail
 # Post images in Albums
 [[ -z "${album}" ]] || post_album "${prev_frame}"
 
+# Post matching image from commentsubs folder if exists
+comment_subs_image="commentsubs/$(printf "%06d" "${prev_frame}").jpg"
+if [[ -f "${comment_subs_image}" ]]; then
+    sleep "${delay_action}" # optional delay
+    post_commentimage "${post_id}" "${comment_subs_image}"
+fi
+
+
 # Addons, Random Crop from frame
 if [[ "${rand_post}" = "1" ]]; then
 	sleep "${delay_action}" # Delay
