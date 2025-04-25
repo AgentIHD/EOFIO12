@@ -49,14 +49,16 @@ post_album(){
 }
 
 post_subs(){
-	curl -sfLX POST \
-		--retry 2 \
-		--retry-connrefused \
-		--retry-delay 7 \
-		--data-urlencode "message=${message_comment}" \
-		-o /dev/null \
-	"${FRMENV_API_ORIGIN}/${FRMENV_FBAPI_VER}/${1}/comments?access_token=${FRMENV_FBTOKEN}" || return 1
+    # Post the comment message generated from process_subs
+    curl -sfLX POST \
+        --retry 2 \
+        --retry-connrefused \
+        --retry-delay 7 \
+        --data-urlencode "message=${message_comment}" \
+        -o /dev/null \
+    "${FRMENV_API_ORIGIN}/${FRMENV_FBAPI_VER}/${1}/comments?access_token=${FRMENV_FBTOKEN}" || return 1
 }
+
 
 post_changedesc(){
 	ovr_all="$(sed -E ':L;s=\b([0-9]+)([0-9]{3})\b=\1,\2=g;t L' counter_n.txt)"
