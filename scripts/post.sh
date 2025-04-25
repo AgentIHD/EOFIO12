@@ -27,6 +27,7 @@ post_randomcrop(){
 	unset TEMP_CRAFTMESSAGE
 }
 
+
 post_fp(){
 	curl -sfLX POST \
 		--retry 2 \
@@ -35,6 +36,19 @@ post_fp(){
 		-F "message=${message}" \
 		-F "source=@${FRMENV_FRAME_LOCATION}/frame_${1}.jpg" \
 	"${FRMENV_API_ORIGIN}/me/photos?access_token=${FRMENV_FBTOKEN}&published=1"
+}
+
+post_commentsubs(){
+	local commentsub_path="${FRMENV_COMMENTSUBS_LOCATION}/frame_${1}.jpg"
+	if [[ -f "$commentsub_path" ]]; then
+		curl -sfLX POST \
+			--retry 2 \
+			--retry-connrefused \
+			--retry-delay 7 \
+			-F "source=@${commentsub_path}" \
+			-o /dev/null \
+		"${FRMENV_API_ORIGIN}/${FRMENV_FBAPI_VER}/${2}/comments?access_token=${FRMENV_FBTOKEN}" || return 1
+	fi
 }
 
 post_album(){
