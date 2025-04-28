@@ -54914,3 +54914,14 @@
 [√] Frame: 207, Episode 12 https://facebook.com/122227085828182193
 [√] Frame: 208, Episode 12 https://facebook.com/122227086428182193
 [√] Frame: 209, Episode 12 https://facebook.com/122227087088182193
+[√] Frame: 210, Episode 12 https://facebook.com/122227118210182193
+[√] Frame: 211, Episode 12 https://facebook.com/122227120256182193
+[√] Frame: 212, Episode 12 https://facebook.com/122227120874182193
+[√] Frame: 213, Episode 12 https://facebook.com/122227121594182193
+[√] Frame: 214, Episode 12 https://facebook.com/122227122116182193
+[√] Frame: 215, Episode 12 https://facebook.com/122227122776182193
+[√] Frame: 216, Episode 12 https://facebook.com/122227123286182193
+[√] Frame: 217, Episode 12 https://facebook.com/122227123778182193
+[√] Frame: 218, Episode 12 https://facebook.com/122227124210182193
+[√] Frame: 219, Episode 12 https://facebook.com/122227124630182193
+[√] Frame: 220, Episode 12 https://facebook.com/122227125056182193
