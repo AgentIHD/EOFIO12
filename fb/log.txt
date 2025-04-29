@@ -54947,3 +54947,14 @@
 [√] Frame: 240, Episode 12 https://facebook.com/122227186622182193
 [√] Frame: 241, Episode 12 https://facebook.com/122227187042182193
 [√] Frame: 242, Episode 12 https://facebook.com/122227187516182193
+[√] Frame: 243, Episode 12 https://facebook.com/122227206944182193
+[√] Frame: 244, Episode 12 https://facebook.com/122227207556182193
+[√] Frame: 245, Episode 12 https://facebook.com/122227208144182193
+[√] Frame: 246, Episode 12 https://facebook.com/122227208846182193
+[√] Frame: 247, Episode 12 https://facebook.com/122227209404182193
+[√] Frame: 248, Episode 12 https://facebook.com/122227209932182193
+[√] Frame: 249, Episode 12 https://facebook.com/122227210520182193
+[√] Frame: 250, Episode 12 https://facebook.com/122227211240182193
+[√] Frame: 251, Episode 12 https://facebook.com/122227211774182193
+[√] Frame: 252, Episode 12 https://facebook.com/122227212356182193
+[√] Frame: 253, Episode 12 https://facebook.com/122227212872182193
