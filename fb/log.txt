@@ -55046,3 +55046,14 @@
 [√] Frame: 339, Episode 12 https://facebook.com/122227481108182193
 [√] Frame: 340, Episode 12 https://facebook.com/122227481654182193
 [√] Frame: 341, Episode 12 https://facebook.com/122227482356182193
+[√] Frame: 342, Episode 12 https://facebook.com/122227512104182193
+[√] Frame: 343, Episode 12 https://facebook.com/122227512710182193
+[√] Frame: 344, Episode 12 https://facebook.com/122227513232182193
+[√] Frame: 345, Episode 12 https://facebook.com/122227513946182193
+[√] Frame: 346, Episode 12 https://facebook.com/122227514474182193
+[√] Frame: 347, Episode 12 https://facebook.com/122227515110182193
+[√] Frame: 348, Episode 12 https://facebook.com/122227515518182193
+[√] Frame: 349, Episode 12 https://facebook.com/122227516202182193
+[√] Frame: 350, Episode 12 https://facebook.com/122227517126182193
+[√] Frame: 351, Episode 12 https://facebook.com/122227517582182193
+[√] Frame: 352, Episode 12 https://facebook.com/122227518032182193
