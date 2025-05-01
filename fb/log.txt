@@ -55101,3 +55101,14 @@
 [√] Frame: 394, Episode 12 https://facebook.com/122227627106182193
 [√] Frame: 395, Episode 12 https://facebook.com/122227627616182193
 [√] Frame: 396, Episode 12 https://facebook.com/122227628138182193
+[√] Frame: 397, Episode 12 https://facebook.com/122227661204182193
+[√] Frame: 398, Episode 12 https://facebook.com/122227661714182193
+[√] Frame: 399, Episode 12 https://facebook.com/122227662254182193
+[√] Frame: 400, Episode 12 https://facebook.com/122227662812182193
+[√] Frame: 401, Episode 12 https://facebook.com/122227663352182193
+[√] Frame: 402, Episode 12 https://facebook.com/122227663988182193
+[√] Frame: 403, Episode 12 https://facebook.com/122227664720182193
+[√] Frame: 404, Episode 12 https://facebook.com/122227665212182193
+[√] Frame: 405, Episode 12 https://facebook.com/122227665686182193
+[√] Frame: 406, Episode 12 https://facebook.com/122227666208182193
+[√] Frame: 407, Episode 12 https://facebook.com/122227666676182193
