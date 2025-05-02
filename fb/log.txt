@@ -55134,3 +55134,14 @@
 [√] Frame: 427, Episode 12 https://facebook.com/122227764800182193
 [√] Frame: 428, Episode 12 https://facebook.com/122227765256182193
 [√] Frame: 429, Episode 12 https://facebook.com/122227765664182193
+[√] Frame: 430, Episode 12 https://facebook.com/122227793324182193
+[√] Frame: 431, Episode 12 https://facebook.com/122227793720182193
+[√] Frame: 432, Episode 12 https://facebook.com/122227794074182193
+[√] Frame: 433, Episode 12 https://facebook.com/122227794536182193
+[√] Frame: 434, Episode 12 https://facebook.com/122227794920182193
+[√] Frame: 435, Episode 12 https://facebook.com/122227795388182193
+[√] Frame: 436, Episode 12 https://facebook.com/122227796276182193
+[√] Frame: 437, Episode 12 https://facebook.com/122227796762182193
+[√] Frame: 438, Episode 12 https://facebook.com/122227797272182193
+[√] Frame: 439, Episode 12 https://facebook.com/122227797842182193
+[√] Frame: 440, Episode 12 https://facebook.com/122227798340182193
