@@ -55167,3 +55167,14 @@
 [√] Frame: 460, Episode 12 https://facebook.com/122227880876182193
 [√] Frame: 461, Episode 12 https://facebook.com/122227881536182193
 [√] Frame: 462, Episode 12 https://facebook.com/122227882208182193
+[√] Frame: 463, Episode 12 https://facebook.com/122227911914182193
+[√] Frame: 464, Episode 12 https://facebook.com/122227912376182193
+[√] Frame: 465, Episode 12 https://facebook.com/122227912994182193
+[√] Frame: 466, Episode 12 https://facebook.com/122227913594182193
+[√] Frame: 467, Episode 12 https://facebook.com/122227914278182193
+[√] Frame: 468, Episode 12 https://facebook.com/122227914950182193
+[√] Frame: 469, Episode 12 https://facebook.com/122227915574182193
+[√] Frame: 470, Episode 12 https://facebook.com/122227916078182193
+[√] Frame: 471, Episode 12 https://facebook.com/122227916774182193
+[√] Frame: 472, Episode 12 https://facebook.com/122227917386182193
+[√] Frame: 473, Episode 12 https://facebook.com/122227918118182193
