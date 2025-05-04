@@ -55299,3 +55299,14 @@
 [√] Frame: 592, Episode 12 https://facebook.com/122228238356182193
 [√] Frame: 593, Episode 12 https://facebook.com/122228239058182193
 [√] Frame: 594, Episode 12 https://facebook.com/122228239730182193
+[√] Frame: 595, Episode 12 https://facebook.com/122228272256182193
+[√] Frame: 596, Episode 12 https://facebook.com/122228272916182193
+[√] Frame: 597, Episode 12 https://facebook.com/122228273600182193
+[√] Frame: 598, Episode 12 https://facebook.com/122228274236182193
+[√] Frame: 599, Episode 12 https://facebook.com/122228274878182193
+[√] Frame: 600, Episode 12 https://facebook.com/122228275736182193
+[√] Frame: 601, Episode 12 https://facebook.com/122228276318182193
+[√] Frame: 602, Episode 12 https://facebook.com/122228276876182193
+[√] Frame: 603, Episode 12 https://facebook.com/122228277338182193
+[√] Frame: 604, Episode 12 https://facebook.com/122228277824182193
+[√] Frame: 605, Episode 12 https://facebook.com/122228278436182193
