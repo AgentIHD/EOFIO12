@@ -55453,3 +55453,14 @@
 [√] Frame: 746, Episode 12 https://facebook.com/122228737502182193
 [√] Frame: 747, Episode 12 https://facebook.com/122228737946182193
 [√] Frame: 748, Episode 12 https://facebook.com/122228738330182193
+[√] Frame: 749, Episode 12 https://facebook.com/122228763650182193
+[√] Frame: 750, Episode 12 https://facebook.com/122228764124182193
+[√] Frame: 751, Episode 12 https://facebook.com/122228764676182193
+[√] Frame: 752, Episode 12 https://facebook.com/122228765342182193
+[√] Frame: 753, Episode 12 https://facebook.com/122228765828182193
+[√] Frame: 754, Episode 12 https://facebook.com/122228766464182193
+[√] Frame: 755, Episode 12 https://facebook.com/122228767142182193
+[√] Frame: 756, Episode 12 https://facebook.com/122228767676182193
+[√] Frame: 757, Episode 12 https://facebook.com/122228768396182193
+[√] Frame: 758, Episode 12 https://facebook.com/122228768960182193
+[√] Frame: 759, Episode 12 https://facebook.com/122228769416182193
