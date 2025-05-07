@@ -55486,3 +55486,14 @@
 [√] Frame: 779, Episode 12 https://facebook.com/122228827388182193
 [√] Frame: 780, Episode 12 https://facebook.com/122228827946182193
 [√] Frame: 781, Episode 12 https://facebook.com/122228828492182193
+[√] Frame: 782, Episode 12 https://facebook.com/122228858324182193
+[√] Frame: 783, Episode 12 https://facebook.com/122228858924182193
+[√] Frame: 784, Episode 12 https://facebook.com/122228859482182193
+[√] Frame: 785, Episode 12 https://facebook.com/122228859974182193
+[√] Frame: 786, Episode 12 https://facebook.com/122228860448182193
+[√] Frame: 787, Episode 12 https://facebook.com/122228861012182193
+[√] Frame: 788, Episode 12 https://facebook.com/122228861528182193
+[√] Frame: 789, Episode 12 https://facebook.com/122228861972182193
+[√] Frame: 790, Episode 12 https://facebook.com/122228862560182193
+[√] Frame: 791, Episode 12 https://facebook.com/122228863022182193
+[√] Frame: 792, Episode 12 https://facebook.com/122228863730182193
