@@ -55541,3 +55541,14 @@
 [√] Frame: 834, Episode 12 https://facebook.com/122228979632182193
 [√] Frame: 835, Episode 12 https://facebook.com/122228980082182193
 [√] Frame: 836, Episode 12 https://facebook.com/122228980592182193
+[√] Frame: 837, Episode 12 https://facebook.com/122229011198182193
+[√] Frame: 838, Episode 12 https://facebook.com/122229011636182193
+[√] Frame: 839, Episode 12 https://facebook.com/122229012218182193
+[√] Frame: 840, Episode 12 https://facebook.com/122229012824182193
+[√] Frame: 841, Episode 12 https://facebook.com/122229013520182193
+[√] Frame: 842, Episode 12 https://facebook.com/122229014078182193
+[√] Frame: 843, Episode 12 https://facebook.com/122229014492182193
+[√] Frame: 844, Episode 12 https://facebook.com/122229015026182193
+[√] Frame: 845, Episode 12 https://facebook.com/122229015554182193
+[√] Frame: 846, Episode 12 https://facebook.com/122229016136182193
+[√] Frame: 847, Episode 12 https://facebook.com/122229016634182193
