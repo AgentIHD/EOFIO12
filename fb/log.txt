@@ -59325,3 +59325,14 @@
 [√] Frame: 4618, Episode 12 https://facebook.com/122243196872182193
 [√] Frame: 4619, Episode 12 https://facebook.com/122243197436182193
 [√] Frame: 4620, Episode 12 https://facebook.com/122243197982182193
+[√] Frame: 4621, Episode 12 https://facebook.com/122243233682182193
+[√] Frame: 4622, Episode 12 https://facebook.com/122243234264182193
+[√] Frame: 4623, Episode 12 https://facebook.com/122243234738182193
+[√] Frame: 4624, Episode 12 https://facebook.com/122243235248182193
+[√] Frame: 4625, Episode 12 https://facebook.com/122243235782182193
+[√] Frame: 4626, Episode 12 https://facebook.com/122243236334182193
+[√] Frame: 4627, Episode 12 https://facebook.com/122243236796182193
+[√] Frame: 4628, Episode 12 https://facebook.com/122243237318182193
+[√] Frame: 4629, Episode 12 https://facebook.com/122243237732182193
+[√] Frame: 4630, Episode 12 https://facebook.com/122243238236182193
+[√] Frame: 4631, Episode 12 https://facebook.com/122243238788182193
