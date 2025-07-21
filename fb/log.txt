@@ -59765,3 +59765,14 @@
 [√] Frame: 5058, Episode 12 https://facebook.com/122244727274182193
 [√] Frame: 5059, Episode 12 https://facebook.com/122244727676182193
 [√] Frame: 5060, Episode 12 https://facebook.com/122244728078182193
+[√] Frame: 5061, Episode 12 https://facebook.com/122244739046182193
+[√] Frame: 5062, Episode 12 https://facebook.com/122244739538182193
+[√] Frame: 5063, Episode 12 https://facebook.com/122244739946182193
+[√] Frame: 5064, Episode 12 https://facebook.com/122244740492182193
+[√] Frame: 5065, Episode 12 https://facebook.com/122244740876182193
+[√] Frame: 5066, Episode 12 https://facebook.com/122244741458182193
+[√] Frame: 5067, Episode 12 https://facebook.com/122244741866182193
+[√] Frame: 5068, Episode 12 https://facebook.com/122244742256182193
+[√] Frame: 5069, Episode 12 https://facebook.com/122244742682182193
+[√] Frame: 5070, Episode 12 https://facebook.com/122244743084182193
+[√] Frame: 5071, Episode 12 https://facebook.com/122244743486182193
