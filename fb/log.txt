@@ -59908,3 +59908,14 @@
 [√] Frame: 5201, Episode 12 https://facebook.com/122245208882182193
 [√] Frame: 5202, Episode 12 https://facebook.com/122245209380182193
 [√] Frame: 5203, Episode 12 https://facebook.com/122245209902182193
+[√] Frame: 5204, Episode 12 https://facebook.com/122245230614182193
+[√] Frame: 5205, Episode 12 https://facebook.com/122245231322182193
+[√] Frame: 5206, Episode 12 https://facebook.com/122245231970182193
+[√] Frame: 5207, Episode 12 https://facebook.com/122245232552182193
+[√] Frame: 5208, Episode 12 https://facebook.com/122245233062182193
+[√] Frame: 5209, Episode 12 https://facebook.com/122245233464182193
+[√] Frame: 5210, Episode 12 https://facebook.com/122245234346182193
+[√] Frame: 5211, Episode 12 https://facebook.com/122245234850182193
+[√] Frame: 5212, Episode 12 https://facebook.com/122245235366182193
+[√] Frame: 5213, Episode 12 https://facebook.com/122245236146182193
+[√] Frame: 5214, Episode 12 https://facebook.com/122245237082182193
