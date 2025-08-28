@@ -3,26 +3,22 @@
 
 . "$(dirname "$0")/../config.conf"
 
-# Log
 LOG_FILE="$(dirname "$0")/../fb/log.txt"
 
-# random
 random_line=$(shuf -n 1 "$LOG_FILE")
-
 frame_info=$(echo "$random_line" | awk -F 'https' '{print $1}')
 frame_url=$(echo "$random_line" | awk '{print $NF}')
 
-# message
 message="Random frame. ${frame_info}"
 
-# Share
+# debug
+echo "DEBUG: Posting to page URL: ${FRMENV_API_ORIGIN}/${FRMENV_FBAPI_VER}/194597373745170/feed?access_token=${FRMENV_FBTOKEN}"
+
 response=$(
   curl -s -w "\n%{http_code}" -X POST \
     -F "message=${message}" \
     -F "link=${frame_url}" \
-    #"${FRMENV_API_ORIGIN}/194597373745170/feed?access_token=${FRMENV_FBTOKEN}"
     "${FRMENV_API_ORIGIN}/${FRMENV_FBAPI_VER}/194597373745170/feed?access_token=${FRMENV_FBTOKEN}"
-
 )
 
 body=$(echo "$response" | head -n 1)

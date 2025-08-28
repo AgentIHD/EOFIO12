@@ -8,7 +8,7 @@ on:
 jobs:
   reshare:
     runs-on: ubuntu-latest
-    env:
+    env:                # 👈 job-level env
       FRMENV_FBTOKEN: ${{ secrets.FRMENV_FBTOKEN }}
       FRMENV_API_ORIGIN: "https://graph.facebook.com"
       FRMENV_FBAPI_VER: "v23.0"
@@ -19,6 +19,10 @@ jobs:
 
       - name: "check token"
         run: |
+          if [[ -z "$FRMENV_FBTOKEN" ]]; then
+            echo "❌ Token is empty!"
+            exit 1
+          fi
           echo "Token loaded: ${FRMENV_FBTOKEN:0:4}****"
 
       - name: "run random reshare"
