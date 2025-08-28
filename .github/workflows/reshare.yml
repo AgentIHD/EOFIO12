@@ -8,19 +8,18 @@ on:
 jobs:
   reshare:
     runs-on: ubuntu-latest
+    env:
+      FRMENV_FBTOKEN: ${{ secrets.FRMENV_FBTOKEN }}
+      FRMENV_API_ORIGIN: "https://graph.facebook.com"
+      FRMENV_FBAPI_VER: "v23.0"
+
     steps:
       - name: "checkout repo"
         uses: actions/checkout@v4
 
       - name: "check token"
-        env:
-          FRMENV_FBTOKEN: ${{ secrets.FRMENV_FBTOKEN }}
         run: |
           echo "Token loaded: ${FRMENV_FBTOKEN:0:4}****"
 
       - name: "run random reshare"
-        env:
-          FRMENV_FBTOKEN: ${{ secrets.FRMENV_FBTOKEN }}
-          FRMENV_API_ORIGIN: "https://graph.facebook.com"
-          FRMENV_FBAPI_VER: "v23.0"
         run: bash ./scripts/reshare_random.sh
