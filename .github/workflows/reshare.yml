@@ -2,9 +2,9 @@ name: "random reshare"
 
 on:
   schedule:
-    # Run 3 times a day (every 8 hours: 00:00, 08:00, 16:00 UTC)
+
     - cron: "0 */8 * * *"
-  workflow_dispatch:   # allow manual trigger
+  workflow_dispatch: 
 
 jobs:
   reshare:
@@ -12,6 +12,11 @@ jobs:
     steps:
       - name: "checkout repo"
         uses: actions/checkout@v4
+
+      - name: "check token"
+        run: echo "Token loaded: ${FRMENV_FBTOKEN:0:4}****"
+        env:
+          FRMENV_FBTOKEN: ${{ secrets.FRMENV_FBTOKEN }}
 
       - name: "run random reshare"
         env:
