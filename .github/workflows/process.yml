@@ -44,7 +44,7 @@ jobs:
           sudo apt install imagemagick -y
 
       - name: "execute"
-        run: bash EOFIO12/scripts/reshare_random.sh
+        run: bash ./EOFIO12/scripts/reshare_random.sh
         #run: bash img_process.sh "in_progress"
 
       - name: "commit banner"
