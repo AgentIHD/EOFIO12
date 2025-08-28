@@ -17,5 +17,5 @@ jobs:
         env:
           FRMENV_FBTOKEN: ${{ secrets.FRMENV_FBTOKEN }}
           FRMENV_API_ORIGIN: "https://graph.facebook.com"
-          FRMENV_FBAPI_VER: "v18.0"
+          FRMENV_FBAPI_VER: "v22.0"
         run: bash ./scripts/reshare_random.sh
