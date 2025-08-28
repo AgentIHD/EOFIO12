@@ -9,7 +9,7 @@ jobs:
   reshare:
     runs-on: ubuntu-latest
     env:                # 👈 job-level env
-      FRMENV_FBTOKEN: ${{ secrets.FRMENV_FBTOKEN }}
+      FRMENV_FBTOKEN: ${{ secrets.TOK_FB }}
       FRMENV_API_ORIGIN: "https://graph.facebook.com"
       FRMENV_FBAPI_VER: "v23.0"
 
