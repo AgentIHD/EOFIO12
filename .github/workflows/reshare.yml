@@ -15,7 +15,8 @@ jobs:
       - name: "check token"
         env:
           FRMENV_FBTOKEN: ${{ secrets.FRMENV_FBTOKEN }}
-        run: echo 'Token loaded: '$(echo $FRMENV_FBTOKEN | cut -c1-4)'****'
+        run: |
+          echo "Token loaded: ${FRMENV_FBTOKEN:0:4}****"
 
       - name: "run random reshare"
         env:
