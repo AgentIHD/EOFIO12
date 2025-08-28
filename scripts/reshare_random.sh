@@ -1,7 +1,7 @@
 #!/bin/bash
 # File: EOFIO12/scripts/reshare_random.sh
 
-: "${FRMENV_FBTOKEN:=${1:-}}"
+: "${FRMENV_FBTOKEN:=${TOK_FB:-}}"
 
 if [[ -z "$FRMENV_FBTOKEN" ]]; then
   echo "❌ FRMENV_FBTOKEN is empty!"
