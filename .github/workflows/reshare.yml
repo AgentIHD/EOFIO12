@@ -2,9 +2,8 @@ name: "random reshare"
 
 on:
   schedule:
-
     - cron: "0 */8 * * *"
-  workflow_dispatch: 
+  workflow_dispatch:
 
 jobs:
   reshare:
@@ -14,9 +13,9 @@ jobs:
         uses: actions/checkout@v4
 
       - name: "check token"
-        run: echo "Token loaded: ${FRMENV_FBTOKEN:0:4}****"
         env:
           FRMENV_FBTOKEN: ${{ secrets.FRMENV_FBTOKEN }}
+        run: echo "Token loaded: ${FRMENV_FBTOKEN:0:4}****"
 
       - name: "run random reshare"
         env:
