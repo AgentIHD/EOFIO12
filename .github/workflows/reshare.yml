@@ -1,0 +1,21 @@
+name: "random reshare"
+
+on:
+  schedule:
+    # Run 3 times a day (every 8 hours: 00:00, 08:00, 16:00 UTC)
+    - cron: "0 */8 * * *"
+  workflow_dispatch:   # allow manual trigger
+
+jobs:
+  reshare:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "checkout repo"
+        uses: actions/checkout@v4
+
+      - name: "run random reshare"
+        env:
+          FRMENV_FBTOKEN: ${{ secrets.FRMENV_FBTOKEN }}
+          FRMENV_API_ORIGIN: "https://graph.facebook.com"
+          FRMENV_FBAPI_VER: "v18.0"
+        run: bash ./EOFIO12/scripts/reshare_random.sh
