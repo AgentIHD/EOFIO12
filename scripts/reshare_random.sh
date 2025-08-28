@@ -20,7 +20,9 @@ response=$(
   curl -s -w "\n%{http_code}" -X POST \
     -F "message=${message}" \
     -F "link=${frame_url}" \
-    "${FRMENV_API_ORIGIN}/194597373745170/feed?access_token=${FRMENV_FBTOKEN}"
+    #"${FRMENV_API_ORIGIN}/194597373745170/feed?access_token=${FRMENV_FBTOKEN}"
+    "${FRMENV_API_ORIGIN}/${FRMENV_FBAPI_VER}/194597373745170/feed?access_token=${FRMENV_FBTOKEN}"
+
 )
 
 body=$(echo "$response" | head -n 1)
