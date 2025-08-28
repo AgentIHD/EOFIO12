@@ -2,13 +2,13 @@ name: "random reshare"
 
 on:
   schedule:
-    - cron: "0 */8 * * *"
+    - cron: "0 7,15,23 * * *"
   workflow_dispatch:
 
 jobs:
   reshare:
     runs-on: ubuntu-latest
-    env:                # 👈 job-level env
+    env:
       FRMENV_FBTOKEN: ${{ secrets.TOK_FB }}
       FRMENV_API_ORIGIN: "https://graph.facebook.com"
       FRMENV_FBAPI_VER: "v23.0"
