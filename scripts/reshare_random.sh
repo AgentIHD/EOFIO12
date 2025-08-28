@@ -2,7 +2,6 @@
 # File: EOFIO12/scripts/reshare_random.sh
 
 . "$(dirname "$0")/../config.conf"
-. "$(dirname "$0")/../secret.sh"
 
 # Log
 LOG_FILE="$(dirname "$0")/../fb/log.txt"
