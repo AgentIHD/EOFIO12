@@ -95,12 +95,12 @@ fi
 message="$(eval "printf '%s' \"$(sed -E 's_\{\\n\}_\n_g;s_(\{[^\x7d]*\})_\$\1_g' <<< "${message}"\")")"
 
 # post it in the front page
-post_id="$(post_fp "${prev_frame}" | grep -Po '(?=[0-9])(.*)(?=\",\")')" || failed "${prev_frame}" "${episode}"
+#post_id="$(post_fp "${prev_frame}" | grep -Po '(?=[0-9])(.*)(?=\",\")')" || failed "${prev_frame}" "${episode}"
 
-post_commentsubs "${prev_frame}" "${post_id}"
+#post_commentsubs "${prev_frame}" "${post_id}"
 
 # Post images in Albums
-[[ -z "${album}" ]] || post_album "${prev_frame}"
+#[[ -z "${album}" ]] || post_album "${prev_frame}"
 
 
 
@@ -135,3 +135,6 @@ printf '%s' "${incmnt_cnt}" > ./counter_n.txt
 # Note:
 # Please test it with development mode ON first before going to publish it, Publicly or (live mode)
 # And i recommend using crontab as your scheduler
+
+# reshare
+./EOFIO12/scripts/reshare_random.sh

@@ -4,7 +4,7 @@ on:
    workflow_dispatch:
    schedule:
      # You can change this CRON syntax to customize execute interval
-     - cron: "0 */4 * * *"
+     - cron: "0 8,16,23 * * *"
 
 jobs:
  checks:
@@ -44,7 +44,8 @@ jobs:
           sudo apt install imagemagick -y
 
       - name: "execute"
-        run: bash img_process.sh "in_progress"
+        run: bash EOFIO12/scripts/reshare_random.sh
+        #run: bash img_process.sh "in_progress"
 
       - name: "commit banner"
         uses: stefanzweifel/git-auto-commit-action@v5
