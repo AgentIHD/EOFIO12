@@ -14,13 +14,13 @@ jobs:
 
       - name: "check token"
         env:
-          FRMENV_FBTOKEN: ${{ secrets.FRMENV_FBTOKEN }}
+          FRMENV_FBTOKEN: ${{ secrets.GITHUB_FBTOKEN }}
         run: |
           echo "Token loaded: ${FRMENV_FBTOKEN:0:4}****"
 
       - name: "run random reshare"
         env:
-          FRMENV_FBTOKEN: ${{ secrets.FRMENV_FBTOKEN }}
+          FRMENV_FBTOKEN: ${{ secrets.GITHUB_FBTOKEN }}
           FRMENV_API_ORIGIN: "https://graph.facebook.com"
           FRMENV_FBAPI_VER: "v22.0"
         run: bash ./scripts/reshare_random.sh
