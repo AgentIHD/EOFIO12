@@ -1,6 +1,14 @@
 #!/bin/bash
 # File: EOFIO12/scripts/reshare_random.sh
 
+: "${FRMENV_FBTOKEN:=${1:-}}"
+
+if [[ -z "$FRMENV_FBTOKEN" ]]; then
+  echo "❌ FRMENV_FBTOKEN is empty!"
+  exit 1
+fi
+
+
 . "$(dirname "$0")/../config.conf"
 
 LOG_FILE="$(dirname "$0")/../fb/log.txt"
