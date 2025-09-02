@@ -8,12 +8,15 @@ if [[ -z "$FRMENV_FBTOKEN" ]]; then
   exit 1
 fi
 
-
 . "$(dirname "$0")/../config.conf"
 
 LOG_FILE="$(dirname "$0")/../fb/log.txt"
 
-random_line=$(shuf -n 1 "$LOG_FILE")
+episodes=$(awk '{for(i=1;i<=NF;i++) if ($i=="Episode") print $(i+1)}' "$LOG_FILE" | sort -u)
+
+random_episode=$(echo "$episodes" | shuf -n 1)
+random_line=$(grep "Episode ${random_episode}" "$LOG_FILE" | shuf -n 1)
+
 frame_info=$(echo "$random_line" | awk -F 'https' '{print $1}' | sed 's/\[√\] *//')
 frame_url=$(echo "$random_line" | awk '{print $NF}')
 
@@ -21,6 +24,7 @@ message="Random frame. ${frame_info}"
 
 # debug
 echo "DEBUG: Posting to page URL: ${FRMENV_API_ORIGIN}/${FRMENV_FBAPI_VER}/194597373745170/feed?access_token=${FRMENV_FBTOKEN}"
+echo "DEBUG: Picked episode ${random_episode}"
 
 response=$(
   curl -s -w "\n%{http_code}" -X POST \
